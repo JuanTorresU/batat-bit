@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './sections/Header';
 import reportWebVitals from './reportWebVitals';
+import ExchangeRates from './sections/ExchangeRates';
+import Benefits from './sections/Benefits';
+import Plans from './sections/Plans';
+import Foater from './sections/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <ExchangeRates/>
+    <Benefits/>
+    <Plans/>
+    <Foater/>
   </React.StrictMode>,
   document.getElementById('root')
 );
