@@ -1,18 +1,21 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-color: #faf8f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+h1 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
 
+  /* or 108% */
+  text-align: center;
+
+  /* Just White */
+  color: #ffffff;
+}
 p {
   /* H2 Mobile */
   font-family: DM Sans;
@@ -20,7 +23,7 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  /* or 129% */
+
   text-align: center;
 
   /* Grey */

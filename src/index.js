@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'normalize.css';
 import './index.css';
-import Header from './sections/Header';
+
 import reportWebVitals from './reportWebVitals';
+
+import Header from './sections/Header';
 import ExchangeRates from './sections/ExchangeRates';
 import Benefits from './sections/Benefits';
 import Plans from './sections/Plans';
