@@ -3,8 +3,6 @@ import clock from '../resources/clock.svg';
 import eye from '../resources/eye.svg';
 import dollarSign from '../resources/dollar-sign.svg';
 import checkCircle from '../resources/check-circle.svg';
-import bitcoinBaby from '../resources/bitcoin-baby.jpg';
-
 
 const Benefits = () => {
     return ( 
@@ -12,6 +10,9 @@ const Benefits = () => {
             <h2>Te ayudamos a tomar la mejor decisión, siempre.</h2>
             <p>Que la incertidumbre en materia de criptomonedas sea cosa del pasado</p>
 
+            <div className="container">
+
+            
             <div className='benefits__card'>
                 <img className='benefits__img' src={clock} alt=""/>
                 <h3>Tiempo real</h3>
@@ -35,10 +36,10 @@ const Benefits = () => {
                 <h3>Información confiable</h3>
                 <p>Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
             </div>
+            </div>
 
-            <div>
-                Conócelo hoy.
-                <img src={bitcoinBaby} alt=""/>
+            <div className="knowIt">
+                <p>Conócelo hoy.</p> 
             </div>
         </section>
                 

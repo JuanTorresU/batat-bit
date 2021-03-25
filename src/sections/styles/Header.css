@@ -1,28 +1,97 @@
-h1 {
-  display: inline;
-}
 .header {
   width: 100%;
-  height: 334px;
+  height: 295px;
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .header__logo {
-  margin-bottom: 30px;
-
-  color: #f7931a;
-
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
+  color: #f7931a;
+  letter-spacing: -0.04em;
   font-size: 24px;
   line-height: 18px;
+  margin-top: 39px;
+  margin-bottom: 9px;
 }
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 238px;
+  z-index: 10;
+}
+
+.header__description > p {
+  color: #ffe9d5;
+  margin-top: 0px;
+  margin-bottom: 32px;
+  height: 36px;
+  box-sizing: content-box;
+}
+
+.header__description > span {
+  margin-left: 8.4px;
+}
+
+.header__description > button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  width: 229px;
+  height: 48px;
+  background: #faf8f7;
+  border: none;
+  /* Sombra /Blanco */
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 4px;
+}
+
+.header__description > button > img {
+  margin-left: 14px;
+}
+h1 {
+  box-sizing: content-box;
+  margin: 24px 0px;
+  height: 78px;
+}
+
+/*iPad Pro 11"*/
+@media only screen and (min-device-width: 834px) {
+  .header {
+    height: 440px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 42px;
+    height: 126px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+  }
+  .header__logo {
+    font-size: 27.6556px;
+    line-height: 21px;
+    margin-top: 103px;
+    margin-bottom: 40px;
+  }
+  .header__description {
+    height: 470px;
+    width: 55%;
+  }
+  .header__description > p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 54px;
+  }
+}
+
 /*
 .App {
   text-align: center;

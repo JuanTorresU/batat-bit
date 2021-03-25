@@ -1,5 +1,6 @@
 import './styles/Header.css';
 import logo from '../resources/logo.svg';
+import vector from '../resources/vector.svg'
 
 
 const Header = () => {
@@ -10,10 +11,11 @@ const Header = () => {
           <img src={logo} alt="logo" />
           <span>Batatabit</span>
         </div>
-        
-          <h1>La próxima revolución en el intercambio de monedas.</h1>
+        <div className="header__description">
+          <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
           <p>Batatabit te ayudará a navegar entre los diferentes precios y tendencias</p>
-          
+          <button >Conoce Nuestros Planes<img src={vector} alt=""/></button>
+        </div>
       </header>
   );
 }

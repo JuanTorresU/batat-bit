@@ -1,0 +1,15 @@
+.exchangeRates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exchangeRates__bitcoin {
+  margin-top: 58px;
+}
+
+.exchangeRates > h2 {
+  width: 90%;
+}
+.exchangeRates > p {
+  width: 90%;
+}

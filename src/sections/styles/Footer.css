@@ -2,11 +2,30 @@ footer {
   /* BG */
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
+  align-items: center;
   position: absolute;
   width: 100%;
   height: 150px;
 
   /* Bitcoin Orange */
   background: #f7931a;
+}
+
+.footer__links > a > p,
+.footer__links > a,
+.footer__logo > p {
+  text-align: start;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

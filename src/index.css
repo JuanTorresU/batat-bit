@@ -1,3 +1,13 @@
+button,
+input,
+select,
+textarea {
+  font-size: 100%; /* 1 */
+  margin: 0; /* 2 */
+  vertical-align: baseline; /* 3 */
+  *vertical-align: middle; /* 3 */
+}
+
 body {
   margin: 0;
   background-color: #faf8f7;
@@ -16,6 +26,24 @@ h1 {
   /* Just White */
   color: #ffffff;
 }
+h2 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+
+  /* or 108% */
+  text-align: center;
+}
+h3 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
 p {
   /* H2 Mobile */
   font-family: DM Sans;
@@ -28,10 +56,13 @@ p {
 
   /* Grey */
   color: #bababa;
+}
 
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 24px 20px;
+button {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
 }

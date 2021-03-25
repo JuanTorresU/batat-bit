@@ -1,0 +1,24 @@
+.plans {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.plans > * {
+  width: 90%;
+}
+
+.plans > p {
+  color: #757575;
+  margin-top: 0px;
+}
+
+.plans > h2 {
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+
+.plans__questions {
+  max-width: 400px;
+}

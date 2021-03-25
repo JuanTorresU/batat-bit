@@ -1,0 +1,35 @@
+.question__text {
+  display: flex;
+  justify-content: flex-start;
+}
+.question__text > p {
+  margin-right: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #201e1c;
+
+  text-align: start;
+}
+.question__arrow:hover {
+  padding-left: 2px;
+  width: 18px;
+}
+.question__arrow {
+  padding-left: 7px;
+  width: 13px;
+}
+
+.question > p {
+  max-width: 380px;
+  height: 80px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: start;
+
+  color: #757575;
+}
