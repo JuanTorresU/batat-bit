@@ -2,10 +2,10 @@
 
 ## Para probar el codigo se debe seguir los siguientes pasos
 
-Clonar el repositorio desde la terminal [git clone https://github.com/JuanTorresU/batata-bit.git]
+Clonar el repositorio desde la terminal `git clone https://github.com/JuanTorresU/batata-bit.git`
 
-Entrar en la carpeta del proyecto [cd batata-bit]
+Entrar en la carpeta del proyecto `cd batata-bit`
 
-Instalar las dependencias [npm install]
+Instalar las dependencias `npm install`
 
-Iniciar el servidor y el proyecto [npm start]
+Iniciar el servidor y el proyecto `npm start`
